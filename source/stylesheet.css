@@ -1,4 +1,4 @@
-.body-coming-soon {
+#body-coming-soon {
 	border: 2px solid #C0C0C0;
 	border-radius: 5px;
 	display: block;
@@ -14,29 +14,32 @@
 	width:75%;
 }
 
-div.body-coming-soon h1 {
+div#body-coming-soon h1 {
 	font-family: Courier;
 	font-size: 1.2em;
 	text-align: center;
 	color: #8A360F;
 }
 
-#navigation-bar {
-	position: relative;
-	width:100%;
+.navigation-bar {
+/* 	position: relative; */
+	display: inline-block;
 	margin-top: -20px;
 	margin-bottom: 10px;
-	background-color: red;
-	height: 40px;
+	padding-top: 10px;
+	background-color: #8A360F;
+/* 	height: 50px; */
 	border-radius: 5px;
+	box-shadow: 0px 0px 5px 3px #A0522D inset;
 }
 
-#navigation-bar div {
-	display:inline;
+.navigation-bar a {
+	padding: 10px 20px 10px 20px;
+	display: inline-block;
 	text-align: center;
-}
-
-#navigation-bar a {
 	text-decoration: none;
-	background-color: aqua;
+	color: #C0C0C0;
+	font-size: .8em;
+	font-family: Verdana;
+
 }
