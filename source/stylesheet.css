@@ -1,0 +1,42 @@
+.body-coming-soon {
+	border: 2px solid #C0C0C0;
+	border-radius: 5px;
+	display: block;
+	padding: 10px;
+	background-color: #EAEAEA;
+	box-shadow: 0px 0px 10px 5px #C0C0C0 inset;
+	position: relative;	
+}
+
+.center {
+	margin-left:auto;
+	margin-right:auto;
+	width:75%;
+}
+
+div.body-coming-soon h1 {
+	font-family: Courier;
+	font-size: 1.2em;
+	text-align: center;
+	color: #8A360F;
+}
+
+#navigation-bar {
+	position: relative;
+	width:100%;
+	margin-top: -20px;
+	margin-bottom: 10px;
+	background-color: red;
+	height: 40px;
+	border-radius: 5px;
+}
+
+#navigation-bar div {
+	display:inline;
+	text-align: center;
+}
+
+#navigation-bar a {
+	text-decoration: none;
+	background-color: aqua;
+}
